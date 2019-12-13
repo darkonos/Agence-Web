@@ -1,0 +1,83 @@
+/* Définition des Polices personnalisées. */
+
+/* Définition des styles principaux de la page */
+
+body{
+    width: 900px;
+    margin: auto;
+    font-family: 'Crete Round', serif;
+    font-size: 8px;
+    color:black;
+}
+
+h1{
+    font-size: 20px;   
+}
+
+
+/* Section 1 */
+
+#masterhead{
+    width: 900px;
+    height: 480px;
+    background: url("../img/full-image3.jpg") center no-repeat;
+    border: 1px solid black;
+}
+
+/* Section 2 */
+
+#text{
+    display: inline-block;
+    width: 900px;
+    height:275px;
+    background-color: burlywood;
+    border: 1px solid blue;
+}
+
+.text-left{
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 40px;
+    width: 280px;
+    margin-left: 140px;
+    
+   
+}
+
+.text-right{
+    display: inline-block;
+    vertical-align: 60px;
+    border: 1px solid black;
+    width: 270px;
+    margin-left: 10px;
+}
+
+#logo{
+    width: 30px;
+    margin-left: 155px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+.header-title{
+    width: 200px;
+    margin-top: 140px;
+    margin-left: 155px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#container-iphone{
+   width: 350px;
+   height: 430px;
+   float: right;
+   margin-top: 60px;
+   margin-right: 160px;
+    border: 2px solid red;
+    position: absolute;
+    top: 90px;
+    left: 430px;
+   
+}
+
