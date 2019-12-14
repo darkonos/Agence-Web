@@ -23,6 +23,9 @@ h1{
     background: url("../img/full-image3.jpg") center no-repeat;
     border: 1px solid black;
 }
+#masterhead h1{
+    color: rgb(236, 227, 227);
+}
 
 /* Section 2 */
 
